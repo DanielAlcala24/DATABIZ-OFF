@@ -1,5 +1,9 @@
 "use client";
 
+import flecha2 from "@/assets/flecha2.png";
+import flecha from "@/assets/flecha.png";
+import cohete from "@/assets/cohete.png";
+import cohetevertical from "@/assets/cohetevertical.png";
 import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
 import cylinderImage from "@/assets/cylinder.png";
@@ -31,13 +35,13 @@ export const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#484848,#eaeefe_100%)] overflow-x-clip"
+      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#a2aaad,#11111f_100%)] overflow-x-clip"
     >
       <div className="container">
         <div className="md:flex items-center">
-          <div className="md:w-[478px]">
-            <div className="tag">Version 2.0 is here</div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tigher bg-gradient-to-b from-black to-[#000] text-transparent bg-clip-text mt-6">
+          <div className="md:w-[478px] text-white/60">
+            <div className="tag">ERP, CRM, PV</div>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tigher bg-gradient-to-bl from-[#a2aaad] to-[#a2aaad] text-transparent bg-clip-text mt-6">
               Impulsa tu negocio con DATABIZ
             </h1>
             <p className="text-xl text-[#000] tracking-tight mt-6">
@@ -52,11 +56,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+          <div className="mt-20 md:mt-0 md:h-[470px] md:flex-1 relative">
             <motion.img
-              src={cogImage.src}
+              src={cohete.src}
               alt="Cog image"
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-2 lg:left-5"
               animate={{
                 translateY: [-30, 30],
               }}
@@ -68,20 +72,20 @@ export const Hero = () => {
               }}
             />
             <motion.img
-              src={cylinderImage.src}
+              src={flecha.src}
               alt="cylinder Image"
               width={220}
               height={220}
-              className="hidden md:block -top-8 -left-32 md:absolute"
+              className="hidden md:block -top-8 -left-39 md:absolute"
               style={{
                 translateY: translateY,
               }}
             />
             <motion.img
-              src={noodleImage.src}
+              src={flecha2.src}
               width={220}
               alt="noodleImage"
-              className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"
+              className="hidden lg:block absolute top-[300px] left-[350px] rotate-[30deg]"
               style={{
                 rotate: 30,
                 translateY: translateY,
