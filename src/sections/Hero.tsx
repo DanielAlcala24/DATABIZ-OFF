@@ -39,24 +39,24 @@ export const Hero = () => {
     >
       <div className="container">
         <div className="md:flex items-center">
-          <div className="md:w-[478px] text-white/60">
+          <div className="md:w-[478px] text-white/100">
             <div className="tag">ERP, CRM, PV</div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tigher bg-gradient-to-bl from-[#a2aaad] to-[#a2aaad] text-transparent bg-clip-text mt-6">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tigher bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#a2aaad,#ffffff_100%)] text-transparent bg-clip-text mt-6">
               Impulsa tu negocio con DATABIZ
             </h1>
-            <p className="text-xl text-[#000] tracking-tight mt-6">
+            <p className="text-xl text-[#ffffff] tracking-tight mt-6">
               y toma el control con nuestros software a la medida
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <a href=""><button className="btn btn-primary">Solicita una Demo</button></a>
-              <button className="btn btn-text gap-1">
+              <button className="btn btn-text gap-1 text-[#ffffff]">
                 <span>leer más</span>
                 <ArrowIcon className="h-5 w-5" />
               </button>
             </div>
           </div>
 
-          <div className="mt-20 md:mt-0 md:h-[470px] md:flex-1 relative">
+          <div className="mt-20 md:mt-0 md:h-[500px] md:flex-1 relative">
             <motion.img
               src={cohete.src}
               alt="Cog image"

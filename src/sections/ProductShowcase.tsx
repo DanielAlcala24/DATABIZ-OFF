@@ -1,5 +1,9 @@
 "use client";
 
+import flecha2 from "@/assets/flecha2.png";
+import flecha from "@/assets/flecha.png";
+import cohete from "@/assets/cohete.png";
+import cohetevertical from "@/assets/cohetevertical.png";
 import productImage from "@/assets/product-image.png";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
@@ -19,12 +23,12 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-gradient-to-b from-[#FFFFFF] to-[#B5B5B5] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-[#FFFFFF] to-[#11111f] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center items-center">
-            <div className="tag">Boost your productivity</div>
+            <div className="tag">Aumenta tu productividad</div>
           </div>
           <h2 className="section-title mt-5">
             A more effective way to track progress
@@ -37,7 +41,7 @@ export const ProductShowcase = () => {
         <div className="relative">
           <Image src={productImage} alt="product Image" className="mt-10" />
           <motion.img
-            src={pyramidImage.src}
+            src={flecha.src}
             alt="pyramid Image"
             width={262}
             height={262}
@@ -47,7 +51,7 @@ export const ProductShowcase = () => {
             }}
           />
           <motion.img
-            src={tubeImage.src}
+            src={flecha2.src}
             alt="tube Image"
             width={248}
             height={248}

@@ -53,12 +53,12 @@ export const Header = () => {
           {/* Botones a la derecha en pantallas grandes */}
           <div className="hidden md:flex gap-4">
             <a href="#">
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
+              <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                 Solicita una Demo
               </button>
             </a>
             <a href="#">
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
+              <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                 Iniciar sesión
               </button>
             </a>
@@ -81,12 +81,12 @@ export const Header = () => {
               <a href="#" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
               <div className="flex gap-4 w-full justify-center">
                 <a href="#">
-                  <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full">
+                  <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full">
                     Solicita una Demo
                   </button>
                 </a>
                 <a href="#">
-                  <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full">
+                  <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full">
                     Iniciar sesión
                   </button>
                 </a>
