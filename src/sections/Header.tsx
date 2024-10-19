@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion"; // Importamos Framer Motion
+import { motion, AnimatePresence } from "framer-motion";
 import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Logo1 from "@/assets/logosaas1.png";

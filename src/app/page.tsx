@@ -6,6 +6,7 @@ import { LogoTicker } from "@/sections/LogoTicker";
 import { Pricing } from "@/sections/Pricing";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import { Testimonials } from "@/sections/Testimonials";
+import { Benefits } from "@/sections/Benefits";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <LogoTicker />
+      <Benefits /> 
       <ProductShowcase />
       <Pricing />
       <Testimonials />
