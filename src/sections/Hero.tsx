@@ -40,19 +40,16 @@ export const Hero = () => {
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px] text-white/100">
-            <div className="tag">ERP, CRM, PV</div>
+            <div className="tag">ERP, CRM, PV, BI, Facturación</div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tigher bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#a2aaad,#ffffff_100%)] text-transparent bg-clip-text mt-6">
               Impulsa tu negocio con DATABIZ
             </h1>
             <p className="text-xl text-[#ffffff] tracking-tight mt-6">
-              y toma el control con nuestros software a la medida
+              y toma el control con nuestros sistemas a la medida
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <a href=""><button className="btn btn-primary">Solicita una Demo</button></a>
-              <button className="btn btn-text gap-1 text-[#ffffff]">
-                <span>leer más</span>
-                <ArrowIcon className="h-5 w-5" />
-              </button>
+              
             </div>
           </div>
 

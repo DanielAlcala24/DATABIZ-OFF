@@ -4,10 +4,11 @@ import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { LogoTicker } from "@/sections/LogoTicker";
 import { Pricing } from "@/sections/Pricing";
-import { ProductShowcase } from "@/sections/ProductShowcase";
 import { Testimonials } from "@/sections/Testimonials";
 import { Benefits } from "@/sections/Benefits";
-
+import { Solutions } from "@/sections/Solutions";
+import { Services } from "@/sections/Services";
+ 
 export default function Home() {
   return (
     <>
@@ -15,7 +16,8 @@ export default function Home() {
       <Hero />
       <LogoTicker />
       <Benefits /> 
-      <ProductShowcase />
+      <Services />
+      <Solutions />
       <Pricing />
       <Testimonials />
       <CallToAction />
