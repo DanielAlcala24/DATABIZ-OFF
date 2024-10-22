@@ -13,7 +13,7 @@ const benefits = [
   
   export const Benefits  = () => {
     return (
-      <div className="bg-gradient-to-b from-[#FFFFFF] to-[#11111f] py-24 overflow-x-clip">
+      <div className="bg-gradient-to-b from-[#FFFFFF] to-[#a2aaad] py-24 overflow-x-clip">
         <div className="container mx-auto px-4">
           <h2 className=" text-center mb-8 section-title mt-5">Nuestros Beneficios</h2>
           <div className="relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
@@ -37,7 +37,7 @@ const benefits = [
                   className="flex-none w-64 bg-[transparent] rounded-lg p-1 flex flex-col items-center justify-center"
                 >
                   <benefit.icon className="w-12 h-12 text-[#11111f] mb-4" />
-                  <p className="text-[#a2aaad] text-center font-medium">{benefit.text}</p>
+                  <p className="text-[#11111f] text-center font-medium">{benefit.text}</p>
                 </div>
               ))}
             </motion.div>

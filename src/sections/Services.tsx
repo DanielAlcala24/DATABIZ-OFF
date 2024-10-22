@@ -112,7 +112,7 @@ export const Services = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-gradient-to-b from-[#FFFFFF] to-[#11111f] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-[#FFFFFF] to-[#a2aaad] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading">
