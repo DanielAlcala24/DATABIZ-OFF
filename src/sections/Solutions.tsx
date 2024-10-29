@@ -61,7 +61,7 @@ export const Solutions = () => {
 
   
   return (
-    <div className="bg-gradient-to-b from-[#FFFFFF] to-[#a2aaad] flex flex-col min-h-screen">
+    <div id= 'Solutions' className="bg-gradient-to-b from-[#FFFFFF] to-[#a2aaad] flex flex-col min-h-screen">
         <section className="py-12 md:py-20">
         <div className="section-heading">
           <div className="flex justify-center items-center">

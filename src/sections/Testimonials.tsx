@@ -16,55 +16,55 @@ import React from "react";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar1.src,
     name: "Jamie Rivera",
     username: "@jamietechguru00",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar2.src,
     name: "Josh Smith",
     username: "@jjsmith",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar3.src,
     name: "Morgan Lee",
     username: "@morganleewhiz",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar4.src,
     name: "Casey Jordan",
     username: "@caseyj",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar5.src,
     name: "Taylor Kim",
     username: "@taylorkimm",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar6.src,
     name: "Riley Smith",
     username: "@rileysmith1",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar7.src,
     name: "Jordan Patels",
     username: "@jpatelsdesign",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar8.src,
     name: "Sam Dawson",
     username: "@dawsontechtips",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
     imageSrc: avatar9.src,
     name: "Casey Harper",
     username: "@casey09",
@@ -124,16 +124,15 @@ const TestimonialsColumn = (props: {
 
 export const Testimonials = () => {
   return (
-    <section className="bg-white">
+    <section id= 'Testimonials' className="bg-white">
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <div className="tag">Testimonials</div>
+            <div className="tag">Testimonios</div>
           </div>
-          <h2 className="section-title mt-5">What our users say</h2>
+          <h2 className="section-title mt-5">Nuestroa casos de éxito</h2>
           <p className="section-description">
-            From intutive design to powerful features, our app has become an
-            essential tool for users around the world.
+          Descubre cómo nuestras soluciones han transformado negocios y superado expectativas.
           </p>
         </div>
 

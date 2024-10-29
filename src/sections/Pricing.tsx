@@ -1,70 +1,50 @@
-"use client"
+"use client";
 
 import CheckIcon from "@/assets/check.svg";
 import { twMerge } from "tailwind-merge";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
-    title: "Free",
-    monthlyPrice: 0,
-    buttonText: "Get started for free",
+    title: "Mensuales adquiriendo un año",
+    monthlyPrice: 490,
+    buttonText: "Contrata ahora",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      //"Up to 5 project members",
+      //"Unlimited tasks and projects",
+      //"2GB storage",
+      //"Integrations",
+      //"Basic support",
     ],
   },
   {
-    title: "Pro",
-    monthlyPrice: 9,
-    buttonText: "Sign up now",
+    title: "Mensuales",
+    monthlyPrice: 611,
+    buttonText: "Contrata Ahora",
     popular: true,
     inverse: true,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
-      "Export support",
-    ],
-  },
-  {
-    title: "Business",
-    monthlyPrice: 19,
-    buttonText: "Sign up now",
-    popular: false,
-    inverse: false,
-    features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
-      "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      //"Up to 50 project members",
+      //"Unlimited tasks and projects",
+      //"50GB storage",
+      //"Integrations",
+      //"Priority support",
+      //"Advanced support",
+      //"Export support",
     ],
   },
 ];
 
 export const Pricing = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id= 'Pricing' className="py-24 bg-white">
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title">Precios</h2>
           <p className="section-description mt-5">
-            Free forever. Upgrade for unlimited tasks, better security, and
-            exclusive features.
+            ¡Contamos con los mejores precios del mercado, Solicita tu demo ahora!
           </p>
         </div>
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
@@ -73,7 +53,6 @@ export const Pricing = () => {
               title,
               monthlyPrice,
               buttonText,
-              popular,
               inverse,
               features,
             }) => (
@@ -93,30 +72,15 @@ export const Pricing = () => {
                   >
                     {title}
                   </h3>
-                  {popular === true && (
-                    <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
-                      <motion.span
-                      animate={{
-                        backgroundPositionX: "100%",
-                      }}
-                      transition={{
-                        duration: 1,
-                        repeat: Infinity,
-                        ease: "linear",
-                        repeatType: "loop"
-                      }}
-                      className="bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF)] [background-size:200%] text-transparent bg-clip-text font-medium">
-                        Popular
-                      </motion.span>
-                    </div>
-                  )}
+                  
+                  
                 </div>
                 <div className="flex items-baseline gap-1 mt-[30px]">
                   <span className="text-4xl font-bold tracking-tighter leading-none">
                     ${monthlyPrice}
                   </span>
-                  <span className="tracking-tight font-bold text-black/50">
-                    /month
+                  <span className="tracking-tight font-bold text-gray/50">
+                    /Por usuario
                   </span>
                 </div>
                 <button
@@ -141,9 +105,6 @@ export const Pricing = () => {
               </div>
             )
           )}
-          <div>
-            <h3></h3>
-          </div>
         </div>
       </div>
     </section>

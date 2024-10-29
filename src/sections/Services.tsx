@@ -110,7 +110,7 @@ export const Services = () => {
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
 
   return (
-    <section
+    <section id= 'Services'
       ref={sectionRef}
       className="bg-gradient-to-b from-[#FFFFFF] to-[#a2aaad] py-24 overflow-x-clip"
     >

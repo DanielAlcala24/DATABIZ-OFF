@@ -43,9 +43,10 @@ export const Header = () => {
           {/* Menú normal visible en pantallas grandes */}
           <div className="hidden md:flex flex-grow justify-center bg-[#11111f]">
             <div className="flex gap-6 text-white/60 ">
-              <a href="#" onClick={closeMenu}>Servicios</a>
-              <a href="#" onClick={closeMenu}>Soluciones</a>
-              <a href="#" onClick={closeMenu}>Clientes</a>
+              <a href="#Services" onClick={closeMenu}>Servicios</a>
+              <a href="#Solutions" onClick={closeMenu}>Soluciones</a>
+              <a href="#Testimonials" onClick={closeMenu}>Clientes</a>
+              <a href="#Pricing" onClick={closeMenu}>Precios</a>
               <a href="#" onClick={closeMenu}>Contacto</a>
             </div>
           </div>
@@ -75,10 +76,11 @@ export const Header = () => {
               transition={{ duration: 0.3 }}
               className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] rounded-lg shadow-lg p-4 fixed top-38 left-0 z-50"
             >
-              <a href="#" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
-              <a href="#" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>
-              <a href="#" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
-              <a href="#" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
+              <a href="#Services" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
+              <a href="#Solutions" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>
+              <a href="#Testimonials" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
+              <a href="#Pricing" className="w-full text-center py-2" onClick={closeMenu}>Precios</a>
+              <a href="#Contact" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
               <div className="flex gap-4 w-full justify-center">
                 <a href="#">
                   <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full" onClick={closeMenu}>
