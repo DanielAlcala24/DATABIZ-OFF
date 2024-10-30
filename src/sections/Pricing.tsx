@@ -22,7 +22,7 @@ const pricingTiers = [
   {
     title: "Mensuales",
     monthlyPrice: 611,
-    buttonText: "Contrata Ahora",
+    buttonText: "Contrata ahora",
     popular: true,
     inverse: true,
     features: [

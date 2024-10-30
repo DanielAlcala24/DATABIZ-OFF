@@ -26,7 +26,7 @@ const benefits = [
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 30,
+                  duration: 15,
                   ease: "linear",
                 },
               }}
@@ -36,7 +36,7 @@ const benefits = [
                   key={index}
                   className="flex-none w-64 bg-[transparent] rounded-lg p-1 flex flex-col items-center justify-center"
                 >
-                  <benefit.icon className="w-12 h-12 text-[#11111f] mb-4" />
+                  <benefit.icon className="w-14 h-14 text-[#11111f] mb-4" />
                   <p className="text-[#11111f] text-center font-medium">{benefit.text}</p>
                 </div>
               ))}

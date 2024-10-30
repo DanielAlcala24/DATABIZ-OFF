@@ -1,5 +1,34 @@
 "use client";
 
+import LogoAcuariosMichin from "@/assets/LogoAcuariosMichin.png";
+import LogoBeautyHall from "@/assets/LogoBeautyHall.png";
+import LogoBellphoria from "@/assets/LogoBellphoria.png";
+import LogoBengala from "@/assets/LogoBengala.png";
+import LogoBiosistematica from "@/assets/LogoBiosistematica.png";
+import LogoBNI from "@/assets/LogoBNI.png";
+import LogoBrinCo from "@/assets/LogoBrinCo.png";
+import LogoCHS from "@/assets/LogoCHS.png";
+import LogoCODIGA from "@/assets/LogoCODIGA.png";
+import LogoCredinspira from "@/assets/LogoCredinspira.png";
+import LogoCygnusPPM from "@/assets/LogoCygnusPPM.png";
+import LogoDentalDistrict from "@/assets/LogoDentalDistrict.png";
+import LogoESD from "@/assets/LogoESD.png";
+import LogoFertilityCenter from "@/assets/LogoFertilityCenter.png";
+import LogoGrupoAbadi from "@/assets/LogoGrupoAbadi.png";
+import LogoHairfix from "@/assets/LogoHairfix.png";
+import LogoHAL from "@/assets/LogoHAL.png";
+import LogoInnohub from "@/assets/LogoInnohub.png";
+import LogoJoseCafe from "@/assets/LogoJoseCafe.png";
+import LogoJumpin from "@/assets/LogoJumpin.png";
+import LogoMacsa from "@/assets/LogoMacsa.png";
+import LogoMEdSuites from "@/assets/LogoMEdSuites.png";
+import LogoNewCityMedicalPlaza from "@/assets/LogoNewCityMedicalPlaza.png";
+import LogoSafePark from "@/assets/LogoSafePark.png";
+import LogoSelome from "@/assets/LogoSelome.png";
+import LogoSintoquim from "@/assets/LogoSintoquim.png";
+import LogoStIsidro from "@/assets/LogoStIsidro.png";
+import LogoSupreme from "@/assets/LogoSupreme.png";
+import LogoThePark from "@/assets/LogoThePark.png";
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
@@ -16,64 +45,46 @@ import React from "react";
 
 const testimonials = [
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    text: "Con DATABIZ hemos reducido nuestro tiempo de cierre de mes a solo 3 días. Además, ahora tengo la información fiscal y financiera necesaria para tomar decisiones diarias al alcance de la mano. Somos capaces de monitorear el margen de utilidad incluso a nivel de lote de producto, considerando costos de importación, gastos inherentes a las ventas, costos de financiamiento y coberturas. La capacidad multimoneda nos permite tener control financiero y fiscal en todo momento.",
+    imageSrc: LogoSintoquim.src,
+    name: "Miguel Ángel Marín de la Parra",
+    username: "Director General de Industrias Sintoquim y Presidente del Consejo de CANIPEC",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    text: "Logramos un proceso de implantación rápido, y el sistema realmente nos ha permitido crecer de una manera que no habríamos podido con otras herramientas. La facilidad de desarrollo personalizado ha permitido crear interfaces únicas para nuestras necesidades, algo que con cualquier otro ERP habría sido una inversión incosteable. Hoy tenemos control total de nuestro proceso de compras, medimos el desempeño de cada proveedor y cumplimos de manera muy oportuna con nuestros compromisos fiscales y laborales.",
+    imageSrc: LogoCygnusPPM.src,
+    name: "Arnulfo Bonilla",
+    username: "CEO y Cofundador de Grupo Cygnus - Premium Personnel Management",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    text: "Con DATABIZ hemos logrado controlar con precisión nuestra cadena de suministro, cumpliendo con todas las exigencias de entrega de material a nuestros clientes. La implantación del ERP nos permitió estandarizar nuestros procesos y optimizar tanto nuestras compras como nuestro proceso comercial. Además, hemos superado las contingencias cambiarias y reportamos fácilmente a nuestro corporativo en Atlanta, GA, quienes pueden monitorear en tiempo real la operación gracias al acceso en la nube del sistema. Sus capacidades de facturación electrónica y timbrado nos permiten responder a cualquier necesidad del entorno.",
+    imageSrc: LogoSupreme.src,
+    name: "Joel Rojas Sandoval",
+    username: "Subdirector de Supreme Resources Mx",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    text: "Con DATABIZ tenemos control total sobre nuestra venta en mostrador e integramos nuestra venta en línea sin problemas. La solución facilita un proceso de facturación electrónica muy eficiente, cumpliendo con todas las exigencias de nuestra organización.                     La flexibilidad de integración de DATABIZ nos ha permitido conectarnos con torniquetes y sistemas de acceso, garantizando que el aforo de nuestro acuario esté siempre bajo control. El control de compras e inventarios es crucial para nosotros, y DATABIZ lo integra perfectamente sin complicar la operación de nuestro personal.",
+    imageSrc: LogoAcuariosMichin.src,
+    name: "Arturo Hernández",
+    username: "Gerente General de Acuarios Michin",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    text: "DATABIZ es una herramienta sumamente poderosa que nos brinda control total sobre nuestra operación. Desde la gestión de compras e inventarios, hasta la venta al mostrador, manteniendo siempre un estricto control contable. Con DATABIZ gestionamos eventos, accesos y funciones muy específicas de nuestro sector, como control de acceso, etiquetas personalizadas y más.                      DATABIZ nos proporciona información oportuna para tomar decisiones diarias a cualquier nivel, desde análisis que consolidan todas nuestras sucursales, hasta informes detallados que permiten conocer el desempeño de cada producto, servicio y colaborador.                                      La solución nos facilita el control del proceso de pago a proveedores de manera ágil, manteniendo siempre las reglas de aprobación necesarias, y simplificando la información de pagos en nuestro portal de bancos.                    Además, con DATABIZ facilitamos a nuestros clientes el proceso de facturación gracias al kiosco de autofacturación.",
+    imageSrc: LogoJumpin.src,
+    name: "Sandra Núñez",
+    username: "Directora General de Jump In Trampoline Park",
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
-  },
-  {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
-  },
-  {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
-  },
-  {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet laudantium animi voluptatibus? Veritatis, unde saepe nesciunt beatae eligendi neque iste, ex minus exercitationem quaerat laboriosam. Necessitatibus ut eum eaque.",
-    imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
-  },
+    text: "Hoy, gracias a la funcionalidad de DATABIZ, nuestro proceso de venta al mostrador es altamente eficiente. El módulo de punto de venta ha reducido significativamente el tiempo de espera de nuestros clientes. Las funciones de modificadores sobre producto permiten que nuestros colaboradores ofrezcan proactivamente alternativas adicionales a los clientes, aumentando así los ingresos y la satisfacción de nuestros consumidores. Además, la integración con los distintos módulos permiten obtener la información contable y fiscal que necesitamos para responder oportunamente.",
+    imageSrc: LogoJoseCafe.src,
+    name: "José Café",
+    username: "José Café",
+  }
 ];
 
-const firstColumn = testimonials.slice(0, 3);
-const secondColumn = testimonials.slice(3, 6);
-const thirdColumn = testimonials.slice(6, 9);
+const firstColumn = testimonials.slice(0, 2);
+const secondColumn = testimonials.slice(2, 4);
+const thirdColumn = testimonials.slice(4, 6);
 
 const TestimonialsColumn = (props: {
   className?: string;
