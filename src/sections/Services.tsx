@@ -2,15 +2,10 @@
 
 import flecha2 from "@/assets/flecha2.png";
 import flecha from "@/assets/flecha.png";
-import cohete from "@/assets/cohete.png";
-import cohetevertical from "@/assets/cohetevertical.png";
-import productImage from "@/assets/product-image.png";
-import pyramidImage from "@/assets/pyramid.png";
-import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
-import { Laptop, Smartphone, PenTool, Headphones, Shield, BarChart, HandCoins, Handshake, PackageOpen, Calculator, Landmark, Factory, Computer, Settings, Wallet, ShoppingBasket, Target, ChevronDown, ChevronUp } from "lucide-react"
+import { BarChart, HandCoins, Handshake, PackageOpen, Calculator, Landmark, Factory, Computer, Settings, Wallet, ShoppingBasket, Target, ChevronDown, ChevronUp, ScrollText, House, HeartPulse } from "lucide-react"
 import { LucideIcon } from "lucide-react"
 
 interface ServiceCardProps {
@@ -82,6 +77,21 @@ const services: Service[] = [
     title: "Inteligencia de negocios (BI)",
     description: "Explota la información registrada en el sistema mediante reportes y tableros, integrando aplicaciones como Power BI para tomar mejores decisiones.",
   },
+  {
+    icon: House,
+    title: "Inmobiliaria",
+    description: "Facilita la gestión de propiedades, arrendamientos y contratos con herramientas para administrar inventarios de inmuebles, precios y seguimiento de inquilinos.",
+  },
+  {
+    icon: HeartPulse,
+    title: "Clínica",
+    description: "Simplifica la gestión clínica y del personal de salud con herramientas para manejo de expedientes, citas, tratamientos y facturación de servicios médicos.",
+  },
+  {
+    icon: ScrollText,
+    title: "Facturación electrónica",
+    description: "Cumple con requisitos fiscales para la emisión de comprobantes electrónicos, incluyendo validación de timbres y envío automático al SAT.",
+  },
 ]
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon: Icon, title, description }) => {
@@ -127,7 +137,6 @@ export const Services = () => {
           </p>
         </div>
         <div className="relative">
-          <Image src={productImage} alt="product Image" className="mt-10" />
           <motion.img
             src={flecha.src}
             alt="pyramid Image"
@@ -151,8 +160,8 @@ export const Services = () => {
         </div>
       </div>
       <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

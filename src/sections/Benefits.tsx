@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Zap, Shield, ScrollText, Cloud, Handshake, Heart } from "lucide-react"
+import { Zap, Shield, ScrollText, Cloud, Handshake, } from "lucide-react"
 
 const benefits = [
     { icon: Zap, text: "Rápido y Eficiente" },

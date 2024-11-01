@@ -15,19 +15,17 @@ export const Footer = () => {
           <Image src={logo} height={40} alt="SaaS logo" className="relative" />
         </div>
         <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6">
-          <Link href="">Servicios</Link>
-          <Link href="">Soluciones</Link>
-          <Link href="">Clientes</Link>
-          <Link href="">Contacto</Link>
-          <Link href="">Solicita una Demo</Link>
-          <Link href="">Iniciar Sesión</Link>
+          <Link href="#Services">Servicios</Link>
+          <Link href="#Solutions">Soluciones</Link>
+          <Link href="#Pricing">Precios</Link>
+          <Link href="#Testimonials">Clientes</Link>
+          <Link href="#Contact">Contacto</Link>
+          <Link href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">Solicita una Demo</Link>
+          <Link href="databiz.mx:300" target="_blank">Iniciar Sesión</Link>
         </nav>
         <div className="flex justify-center gap-6 mt-6">
-          <SocialX />
-          <SocialInsta />
-          <SocialLinkedIn />
-          <SocialPin />
-          <SocialYoutube />
+          
+
         </div>
         <p className="mt-6">
           &copy; 2024 DATABIZ. Todos los derechos reservados.

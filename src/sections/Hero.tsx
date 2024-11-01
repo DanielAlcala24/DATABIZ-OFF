@@ -3,13 +3,7 @@
 import flecha2 from "@/assets/flecha2.png";
 import flecha from "@/assets/flecha.png";
 import cohete from "@/assets/cohete.png";
-import cohetevertical from "@/assets/cohetevertical.png";
-import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from "@/assets/cog.png";
-import cylinderImage from "@/assets/cylinder.png";
-import noodleImage from "@/assets/noodle.png";
 import Image from "next/image";
-import launch from "@/assets/image.png";
 
 import {
   motion,

@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ChevronRight, BarChart2, DollarSign, ShoppingCart, Users, Briefcase, PieChart } from 'lucide-react'
+import { ChevronRight, BarChart2, DollarSign, ShoppingCart, Users, Briefcase, PieChart, ScrollText } from 'lucide-react'
 
 export const Solutions = () => {
   const solutions = [
@@ -40,20 +39,20 @@ export const Solutions = () => {
         "Dashboards Personalizados",
         "Reportes Dinámicos",
         "Análisis Predictivo",
-        "Integración con Microsoft Power BI",
         "Visualización de Datos en Tiempo Real"
       ]
     },
     {
         title: "Facturación",
-        description: "Toma decisiones informadas con nuestras herramientas de análisis de datos.",
-        icon: <BarChart2 className="h-8 w-8 mb-4" />,
+        description: "Optimiza y simplifica el proceso de facturación de tu empresa, asegurando precisión y cumplimiento en cada transacción.",
+        icon: <ScrollText className="h-8 w-8 mb-4" />,
         features: [
-          "Dashboards Personalizados",
-          "Reportes Dinámicos",
-          "Análisis Predictivo",
-          "Integración con Microsoft Power BI",
-          "Visualización de Datos en Tiempo Real"
+          "Emisión de Facturas Electrónicas",
+          "Gestión de Pagos y Cobros",
+          "Control de Créditos y Débitos",
+          "Integración con Contabilidad",
+          "Reportes Financieros en Tiempo Real",
+          "Cumplimiento con Normativas Fiscales"
         ]
       }
 
