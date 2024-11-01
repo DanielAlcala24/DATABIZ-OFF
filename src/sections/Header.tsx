@@ -85,7 +85,7 @@ export const Header = () => {
             <div className="flex justify-between items-center w-full">
               {/* Logo */}
               <a href="/" className="flex-shrink-0">
-                <Image src={Logo1} alt="Saas Logo" width={100} />
+                <Image src={Logo1} alt="Saas Logo" width={155} />
               </a>
               
               {/* Botón para cerrar el menú */}

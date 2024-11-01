@@ -42,7 +42,7 @@ export const Hero = () => {
               y toma el control con nuestros sistemas a la medida
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <a href=""><button className="btn btn-primary">Solicita una Demo</button></a>
+              <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank"><button className="btn btn-primary">Solicita una Demo</button></a>
               
             </div>
           </div>
