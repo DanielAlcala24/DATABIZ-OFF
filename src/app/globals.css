@@ -152,3 +152,7 @@
   }
   
 }
+
+.overflow-hidden {
+  overflow: hidden;
+}

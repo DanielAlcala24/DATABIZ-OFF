@@ -13,11 +13,17 @@ export const Header = () => {
   // Función para alternar el estado del menú
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    if (!isMenuOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
   // Función para cerrar el menú
   const closeMenu = () => {
     setIsMenuOpen(false);
+    document.body.classList.remove("overflow-hidden");
   };
 
   return (
@@ -76,11 +82,26 @@ export const Header = () => {
             transition={{ duration: 0.3 }}
             className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] fixed top-[38px] left-0 z-50 p-4 overflow-y-auto"
           >
+            <div className="flex justify-between items-center w-full">
+              {/* Logo */}
+              <a href="/" className="flex-shrink-0">
+                <Image src={Logo1} alt="Saas Logo" width={100} />
+              </a>
+              
+              {/* Botón para cerrar el menú */}
+              <button onClick={toggleMenu} className="text-white">
+                <MenuIcon className="h-6 w-6 text-white/60" />
+              </button>
+            </div>
+          
+            {/* Opciones del menú */}
             <a href="#Services" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
             <a href="#Solutions" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>
             <a href="#Pricing" className="w-full text-center py-2" onClick={closeMenu}>Precios</a>
             <a href="#Testimonials" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
             <a href="#Contact" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
+            
+            {/* Botones adicionales en el menú */}
             <div className="flex gap-4 w-full justify-center">
               <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">
                 <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium w-full" onClick={closeMenu}>
@@ -94,6 +115,7 @@ export const Header = () => {
               </Link>
             </div>
           </motion.nav>
+          
           
           )}
         </AnimatePresence>
