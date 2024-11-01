@@ -13,17 +13,11 @@ export const Header = () => {
   // Función para alternar el estado del menú
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    if (!isMenuOpen) {
-      document.body.classList.add("overflow-hidden");
-    } else {
-      document.body.classList.remove("overflow-hidden");
-    }
   };
 
   // Función para cerrar el menú
   const closeMenu = () => {
     setIsMenuOpen(false);
-    document.body.classList.remove("overflow-hidden");
   };
 
   return (
@@ -77,7 +71,7 @@ export const Header = () => {
           {isMenuOpen && (
             <motion.nav
               initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
+              animate={{ height: "55vh", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3 }}
               className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] fixed top-38 left-0 z-50 p-4 overflow-y-auto"
