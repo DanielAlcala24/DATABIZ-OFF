@@ -70,30 +70,30 @@ export const Header = () => {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.nav
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] rounded-lg shadow-lg p-4 fixed top-38 left-0 z-50"
-            >
-              <a href="#Services" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
-              <a href="#Solutions" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>
-              <a href="#Pricing" className="w-full text-center py-2" onClick={closeMenu}>Precios</a>
-              <a href="#Testimonials" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
-              <a href="#Contact" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
-              <div className="flex gap-4 w-full justify-center">
-                <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">
-                  <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full" onClick={closeMenu}>
-                    Solicita una Demo
-                  </button>
-                </a>
-                <Link href="https://databiz.mx:300" target="_blank">
-                  <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full" onClick={closeMenu}>
-                    Iniciar sesión
-                  </button>
-                </Link>
-              </div>
-            </motion.nav>
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "100vh", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] fixed top-0 left-0 z-50 overflow-y-auto"
+          >
+            <a href="#Services" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
+            <a href="#Solutions" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>
+            <a href="#Pricing" className="w-full text-center py-2" onClick={closeMenu}>Precios</a>
+            <a href="#Testimonials" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
+            <a href="#Contact" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
+            <div className="flex gap-4 w-full justify-center">
+              <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">
+                <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full" onClick={closeMenu}>
+                  Solicita una Demo
+                </button>
+              </a>
+              <Link href="https://databiz.mx:300" target="_blank">
+                <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight w-full" onClick={closeMenu}>
+                  Iniciar sesión
+                </button>
+              </Link>
+            </div>
+          </motion.nav>
           )}
         </AnimatePresence>
       </nav>
