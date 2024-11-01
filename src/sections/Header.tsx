@@ -80,7 +80,7 @@ export const Header = () => {
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] rounded-lg shadow-lg p-4 fixed top-38 left-0 z-50"
+              className="flex flex-col gap-4 text-white/60 items-center md:hidden w-full bg-[#11111f] fixed top-38 left-0 z-50 p-4 overflow-y-auto"
             >
               <a href="#Services" className="w-full text-center py-2" onClick={closeMenu}>Servicios</a>
               <a href="#Solutions" className="w-full text-center py-2" onClick={closeMenu}>Soluciones</a>

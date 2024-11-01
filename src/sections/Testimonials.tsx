@@ -108,7 +108,7 @@ export const Testimonials = () => {
           <div className="flex justify-center">
             <div className="tag">Testimonios</div>
           </div>
-          <h2 className="section-title mt-5">Nuestroa casos de éxito</h2>
+          <h2 className="section-title mt-5">Nuestros casos de éxito</h2>
           <p className="section-description">
           Descubre cómo nuestras soluciones han transformado negocios y superado expectativas.
           </p>
