@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ChevronRight, BarChart2, DollarSign, ShoppingCart, Users, Briefcase, PieChart, ScrollText } from 'lucide-react'
+import { ChevronRight, BarChart2, Users, Briefcase, ScrollText } from 'lucide-react'
 
 export const Solutions = () => {
   const solutions = [

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ArrowRight from "@/assets/arrow-right.svg";
-import Logo1 from "@/assets/logosaas1.png";
+import Logo1 from "@/assets/logosaashorizontal.png";
 import MenuIcon from "@/assets/menu.svg";
 import Image from "next/image";
 import Link from "next/link";
