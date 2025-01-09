@@ -9,6 +9,12 @@ import Clarity from '@microsoft/clarity';
 const projectId = "prbvibh5gv"
 Clarity.init(projectId);
 
+Clarity.identify("custom-id", "custom-session-id", "custom-page-id", "friendly-name");
+Clarity.setTag("key", "value");
+Clarity.event("custom-event");
+Clarity.consent(true); // default value is set to true
+Clarity.upgrade("reason");
+
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
