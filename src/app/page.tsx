@@ -8,7 +8,6 @@ import { Testimonials } from "@/sections/Testimonials";
 import { Benefits } from "@/sections/Benefits";
 import { Solutions } from "@/sections/Solutions";
 import { Services } from "@/sections/Services";
-import { SpeedInsights } from "@vercel/speed-insights/next"
  
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
-      <SpeedInsights/>
     </>
   );
 }

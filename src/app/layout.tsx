@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 import WhatsappLive from "@/sections/WhatsappLive";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
         {children}
         <WhatsappLive />
+        <SpeedInsights/>
       </body>
     </html>
   );
