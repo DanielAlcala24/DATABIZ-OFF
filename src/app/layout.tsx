@@ -4,10 +4,6 @@ import "./globals.css";
 import clsx from "clsx";
 import WhatsappLive from "@/sections/WhatsappLive";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import Clarity from '@microsoft/clarity';
-
-const projectId = "prbvibh5gv"
-Clarity.init(projectId);
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
