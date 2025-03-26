@@ -30,7 +30,7 @@ export const Header = () => {
     <header className="sticky top-0 bg-[#11111f] z-20">
       <div className="flex justify-center items-center py-2 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block">¡No pierdas tiempo!</p>
-        <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank"><div className="inline-flex gap-1 items-center">
+        <a href="https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank"><div className="inline-flex gap-1 items-center">
           <p>Solicita una Demo ahora</p>
           <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" />
         </div></a>
@@ -59,7 +59,7 @@ export const Header = () => {
 
           {/* Botones a la derecha en pantallas grandes */}
           <div className="hidden md:flex gap-4">
-            <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios/20DATABIZ" target="_blank">
+            <a href="https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios/20DATABIZ" target="_blank">
               <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight" onClick={closeMenu}>
                 Solicita una Demo
               </button>
@@ -103,7 +103,7 @@ export const Header = () => {
             
             {/* Botones adicionales en el menú */}
             <div className="flex gap-4 w-full justify-center">
-              <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">
+              <a href="https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">
                 <button className="bg-[#a2aaad] text-[#000000] px-4 py-2 rounded-lg font-medium w-full" onClick={closeMenu}>
                   Solicita una Demo
                 </button>

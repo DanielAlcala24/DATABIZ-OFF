@@ -64,7 +64,7 @@ export const Contact = () => {
             className="flex items-center gap-2 bg-green-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-green-600 transition-colors"
             onClick={() =>
               window.open(
-                "https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ",
+                "https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ",
                 "_blank"
               )
             }

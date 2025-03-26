@@ -20,7 +20,7 @@ export const Footer = () => {
           <Link href="#Pricing">Precios</Link>
           <Link href="#Testimonials">Clientes</Link>
           <Link href="#Contact">Contacto</Link>
-          <Link href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">Solicita una Demo</Link>
+          <Link href="https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank">Solicita una Demo</Link>
           <Link href="databiz.mx:300" target="_blank">Iniciar Sesión</Link>
         </nav>
         <div className="flex justify-center gap-6 mt-6">

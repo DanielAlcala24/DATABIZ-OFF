@@ -82,7 +82,7 @@ export const Pricing = () => {
                     /Por usuario
                   </span>
                 </div>
-                <a href="https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank"><button
+                <a href="https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios%20DATABIZ" target="_blank"><button
                   className={twMerge(
                     "btn btn-primary w-full mt-[30px]",
                     inverse === true && "bg-white text-black"

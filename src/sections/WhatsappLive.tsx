@@ -9,7 +9,7 @@ const WhatsAppLive = () => {
 
   const handleClick = () => {
     window.open(
-      "https://wa.me/5578373467?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios",
+      "https://wa.me/5573966479?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20sus%20servicios",
       "_blank"
     );
   };
