@@ -1,6 +1,6 @@
 "use client";
 
-import hubspot from "@/assets/Hubspot.png";
+import hubspot from "@/assets/hubspot.png";
 import WhatsappIcon from "@/assets/WhatsappIcon.png";
 import EmailIcon from "@/assets/EmailIcon.png";
 import flecha2 from "@/assets/flecha2.png";
