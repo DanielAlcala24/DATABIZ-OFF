@@ -54,6 +54,7 @@ export const Header = () => {
               <a href="#Pricing" onClick={closeMenu}>Precios</a>
               <a href="#Testimonials" onClick={closeMenu}>Clientes</a>
               <a href="#Contact" onClick={closeMenu}>Contacto</a>
+              <a href="/hubspot" onClick={closeMenu}>HubSpot</a>
             </div>
           </div>
 
@@ -100,6 +101,7 @@ export const Header = () => {
             <a href="#Pricing" className="w-full text-center py-2" onClick={closeMenu}>Precios</a>
             <a href="#Testimonials" className="w-full text-center py-2" onClick={closeMenu}>Clientes</a>
             <a href="#Contact" className="w-full text-center py-2" onClick={closeMenu}>Contacto</a>
+            <a href="/hubspot" className="w-full text-center py-2" onClick={closeMenu}>HubSpot</a>
             
             {/* Botones adicionales en el menú */}
             <div className="flex gap-4 w-full justify-center">
